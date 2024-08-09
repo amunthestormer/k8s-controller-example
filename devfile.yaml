@@ -1,0 +1,11 @@
+schemaVersion: 2.2.0
+metadata:
+  generateName: empty-ubuntu-
+components:
+  - name: runtime
+    container:
+      image: docker.io/ubuntu:20.04
+      args:
+        - tail
+        - '-f'
+        - /dev/null
