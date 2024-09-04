@@ -4,7 +4,7 @@ metadata:
 components:
   - name: runtime
     container:
-      image: linhnt35/vs-code-workspace:v1.2
+      image: linhnt35/idea-workspace:v1.0
       args:
         - tail
         - '-f'
